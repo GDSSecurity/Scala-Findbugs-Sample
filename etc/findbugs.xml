@@ -1,0 +1,5 @@
+<FindbugsPlugin>
+  <Detector class="com.gds.findbugs.scanners.HelloworldRule" speed="fast" />
+
+  <BugPattern abbrev="GDS" type="MONGO_INJECTION" category="SECURITY" />
+</FindbugsPlugin>

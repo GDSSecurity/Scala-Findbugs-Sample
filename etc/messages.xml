@@ -1,0 +1,21 @@
+<MessageCollection>
+  <Detector class="com.gds.findbugs.scanners.HelloworldRule">
+    <Details>
+		<![CDATA[
+			<p> Hello World Rule</p>
+		]]>
+    </Details>
+  </Detector>
+
+  <BugPattern type="MONGO_INJECTION">
+    <ShortDescription>Mongo DB Injection</ShortDescription>
+    <LongDescription>
+        This finding indicates that a vulnerable function is used to interact with the mongo database. 
+        If any data coming into this function is user controllable, there is a possibility of injection.
+    </LongDescription>
+    <Details>
+    </Details>
+  </BugPattern>
+  
+  <BugCode abbrev="GDS">Security Detector</BugCode>
+</MessageCollection>
